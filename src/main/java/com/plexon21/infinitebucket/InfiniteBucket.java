@@ -30,9 +30,6 @@ public class InfiniteBucket extends JavaPlugin {
 		meta.setLore(lore);
 		infiniteBucket.setItemMeta(meta);
 		ShapedRecipe recipe = new ShapedRecipe(infiniteBucket);
-		/*recipe.addIngredient( Material.EYE_OF_ENDER);
-		recipe.addIngredient( Material.POTION);
-		recipe.addIngredient( Material.BUCKET);*/
 		recipe.shape(" E ", " W ", " B ");
 		recipe.setIngredient('E', Material.EYE_OF_ENDER);
 		recipe.setIngredient('W', Material.POTION);
